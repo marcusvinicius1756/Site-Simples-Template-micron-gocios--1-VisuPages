@@ -98,6 +98,50 @@ header{
 }
 
 
+.texto-servicos h3, .texto-servicos p{
+    color: #181663;
+    text-align: center;
+}
+
+.texto-servicos h3{
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.card-produto{
+    background-color: white;
+    width: 280px;
+    height: 280px;
+    border-radius: 7px;
+    border: 3px #181663 solid;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 30px;
+}
+
+.card-produto h4{
+    color: #181663;
+    margin-bottom: 6px;
+}
+
+.card-produto p{
+    color: #181663;
+    margin-bottom: 6px;
+}
+
+.card-produto img{
+    width: 231px;
+    border-radius: 7px;
+}
+
+.container-cards{
+    display: flex;
+   justify-content: center;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
 
